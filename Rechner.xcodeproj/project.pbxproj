@@ -11,6 +11,10 @@
 		3A4FDB5B25C200A200E5B96B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4FDB5A25C200A200E5B96B /* ContentView.swift */; };
 		3A4FDB5D25C200A400E5B96B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4FDB5C25C200A400E5B96B /* Assets.xcassets */; };
 		3A4FDB6025C200A400E5B96B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4FDB5F25C200A400E5B96B /* Preview Assets.xcassets */; };
+		3A4FDB7125C2034C00E5B96B /* DisplayArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4FDB7025C2034C00E5B96B /* DisplayArea.swift */; };
+		3A4FDB7425C2038000E5B96B /* ControlPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4FDB7325C2038000E5B96B /* ControlPanel.swift */; };
+		3A4FDB7725C2039E00E5B96B /* RechnerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4FDB7625C2039E00E5B96B /* RechnerButton.swift */; };
+		3A4FDB7A25C203B000E5B96B /* RechnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4FDB7925C203B000E5B96B /* RechnerModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		3A4FDB5C25C200A400E5B96B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A4FDB5F25C200A400E5B96B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A4FDB6125C200A400E5B96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A4FDB7025C2034C00E5B96B /* DisplayArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayArea.swift; sourceTree = "<group>"; };
+		3A4FDB7325C2038000E5B96B /* ControlPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanel.swift; sourceTree = "<group>"; };
+		3A4FDB7625C2039E00E5B96B /* RechnerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RechnerButton.swift; sourceTree = "<group>"; };
+		3A4FDB7925C203B000E5B96B /* RechnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RechnerModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				3A4FDB5C25C200A400E5B96B /* Assets.xcassets */,
 				3A4FDB6125C200A400E5B96B /* Info.plist */,
 				3A4FDB5E25C200A400E5B96B /* Preview Content */,
+				3A4FDB7025C2034C00E5B96B /* DisplayArea.swift */,
+				3A4FDB7325C2038000E5B96B /* ControlPanel.swift */,
+				3A4FDB7625C2039E00E5B96B /* RechnerButton.swift */,
+				3A4FDB7925C203B000E5B96B /* RechnerModel.swift */,
 			);
 			path = Rechner;
 			sourceTree = "<group>";
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A4FDB7125C2034C00E5B96B /* DisplayArea.swift in Sources */,
 				3A4FDB5B25C200A200E5B96B /* ContentView.swift in Sources */,
+				3A4FDB7425C2038000E5B96B /* ControlPanel.swift in Sources */,
+				3A4FDB7A25C203B000E5B96B /* RechnerModel.swift in Sources */,
 				3A4FDB5925C200A200E5B96B /* RechnerApp.swift in Sources */,
+				3A4FDB7725C2039E00E5B96B /* RechnerButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
