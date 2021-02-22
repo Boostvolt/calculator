@@ -1,4 +1,4 @@
-# kftg_calculator
+calculator
 
 Nachahmung des nativen Taschenrechners von Apple, der sowohl unter iOS als auch unter iPadOS verwendet werden kann.
 
