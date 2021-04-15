@@ -1,7 +1,7 @@
-# calculator
+# iPadOS Calculator App in SwiftUI
 
-Nachahmung des nativen Taschenrechners von Apple, der sowohl unter iOS als auch unter iPadOS verwendet werden kann.
+Imitation of Apple's native calculator, which can be used on both iOS and iPadOS.
 
-## Lizenz
+## License
 
-Copyright © 2020 Jan (Boostvolt). Alle Rechte vorbehalten.
+Copyright © 2020 Boostvolt (Jan). All rights reserved.
